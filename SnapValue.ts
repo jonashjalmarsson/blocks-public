@@ -1,5 +1,5 @@
 /*
-	A Snap Value functionality to snap values to a set of fixed values with a snapSize. 
+	A Snap Value functionality to snap values to a set of fixed values with a snapSize.
 	Sample:
 		"persistent": false, // if persistent is enabled, the values will be saved to a file and loaded on startup.
 		"value1": {
@@ -10,7 +10,7 @@
 			],
 			"precision": 0, // the precision of the variable
 		}
-	
+
 	The script publishes each value as a property with the name of the value and one with the name of the value + "Snap"
 	which contains the snapped value. The script also publishes a reload function to reload the values from the json file.
 
@@ -153,7 +153,6 @@ export class SnapValue extends Script {
 				let precision = this.data[name]['precision'] ?? 0
 				for (let i = 0; i < values.length; i++) {
 					let val = Number(values[i])
-					console.log('val: ' + val + ' value: ' + currValue)
 					if (val - size < currValue && val + size > currValue)
 						return val.toFixed(precision)
 

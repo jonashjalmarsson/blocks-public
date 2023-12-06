@@ -122,7 +122,6 @@ define(["require", "exports", "system_lib/Metadata", "system_lib/Script", "syste
                     var precision = (_a = _this.data[name]['precision']) !== null && _a !== void 0 ? _a : 0;
                     for (var i = 0; i < values.length; i++) {
                         var val = Number(values[i]);
-                        console.log('val: ' + val + ' value: ' + currValue);
                         if (val - size < currValue && val + size > currValue)
                             return val.toFixed(precision);
                     }
