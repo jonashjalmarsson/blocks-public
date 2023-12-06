@@ -21,6 +21,8 @@
 	Script made by Jonas Hjalmarsson, By Jalma AB, Sweden (https://byjalma.se).
 	Idea and ordered by Petter Feltenstedt, Kalmar Mediespecialist AB, Sweden (http://mediespecialist.se).
 	All Rights Reserved.
+
+	VERSION 1.0
 */
 import { callable } from "system_lib/Metadata";
 import { Script, ScriptEnv } from "system_lib/Script";
