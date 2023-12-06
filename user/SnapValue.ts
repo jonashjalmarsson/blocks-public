@@ -10,6 +10,7 @@
 			],
 			"precision": 0, // the precision of the variable
 		}
+	Place settings in file in script/files/SnapValue.json
 
 	The script publishes each value as a property with the name of the value and one with the name of the value + "Snap"
 	which contains the snapped value. The script also publishes a reload function to reload the values from the json file.

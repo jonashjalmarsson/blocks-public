@@ -1,0 +1,25 @@
+{
+  "persistent": true,
+  "value1": {
+    "initValue": 500,
+    "snapSize": 25,
+    "snapValues": [
+      500,
+      1670,
+      1850
+    ],
+    "precision": 0
+  },
+  "value2": {
+    "initValue": 150,
+    "snapSize": 10,
+    "snapValues": [
+      100,
+      200,
+      250,
+      300,
+      400
+    ],
+    "precision": 1
+  }
+}
